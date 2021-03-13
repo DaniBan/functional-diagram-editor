@@ -1,0 +1,91 @@
+{
+    "id": 2617183796528,
+    "scene_width": 32000,
+    "scene_height": 32000,
+    "nodes": [
+        {
+            "id": 2617183897440,
+            "title": "Fruits",
+            "pos_x": -469.0,
+            "pos_y": -216.0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 2617183976464,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 3
+                }
+            ],
+            "content": {},
+            "op_code": 2
+        },
+        {
+            "id": 2617183987024,
+            "title": "Washer",
+            "pos_x": -251.0,
+            "pos_y": -146.0,
+            "inputs": [
+                {
+                    "id": 2617183987216,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2617183987312,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "content": {},
+            "op_code": 5
+        },
+        {
+            "id": 2617184019888,
+            "title": "Skin/Seed Remove",
+            "pos_x": 34.0,
+            "pos_y": -213.0,
+            "inputs": [
+                {
+                    "id": 2617184020080,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2617184020176,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "content": {},
+            "op_code": 6
+        }
+    ],
+    "edges": [
+        {
+            "id": 2617183988032,
+            "edge_type": 2,
+            "start": 2617183976464,
+            "end": 2617183987216
+        },
+        {
+            "id": 2617183988080,
+            "edge_type": 2,
+            "start": 2617184020080,
+            "end": 2617183987312
+        }
+    ]
+}

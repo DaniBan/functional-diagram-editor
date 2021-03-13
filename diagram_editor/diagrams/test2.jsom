@@ -1,0 +1,70 @@
+{
+    "id": 2410871291184,
+    "scene_width": 32000,
+    "scene_height": 32000,
+    "nodes": [
+        {
+            "id": 2410871392096,
+            "title": "Meat",
+            "pos_x": -419.0,
+            "pos_y": -233.0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 2410871471120,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 3
+                }
+            ],
+            "content": {},
+            "op_code": 3
+        },
+        {
+            "id": 2410871482352,
+            "title": "Vegetables",
+            "pos_x": -91.0,
+            "pos_y": -174.0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 2410871482544,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 3
+                }
+            ],
+            "content": {},
+            "op_code": 1
+        },
+        {
+            "id": 2410871482400,
+            "title": "Pasteurizer",
+            "pos_x": -171.0,
+            "pos_y": -12.0,
+            "inputs": [
+                {
+                    "id": 2410871482784,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2410871482880,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "content": {},
+            "op_code": 8
+        }
+    ],
+    "edges": []
+}

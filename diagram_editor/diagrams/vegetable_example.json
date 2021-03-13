@@ -1,0 +1,242 @@
+{
+    "id": 1982457670384,
+    "scene_width": 32000,
+    "scene_height": 32000,
+    "nodes": [
+        {
+            "id": 1982457784400,
+            "title": "Vegetables",
+            "pos_x": -541.2499999999998,
+            "pos_y": -229.99999999999997,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 1982457859952,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 3
+                }
+            ],
+            "content": {},
+            "op_code": 1
+        },
+        {
+            "id": 1982457875280,
+            "title": "Washer",
+            "pos_x": -415.50000000000006,
+            "pos_y": -220.25000000000003,
+            "inputs": [
+                {
+                    "id": 1982457875472,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1982457875568,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "content": {},
+            "op_code": 5
+        },
+        {
+            "id": 1982500706576,
+            "title": "Skin/Seed Remove",
+            "pos_x": -235.49999999999994,
+            "pos_y": -212.75000000000003,
+            "inputs": [
+                {
+                    "id": 1982500706768,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1982500706864,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "content": {},
+            "op_code": 6
+        },
+        {
+            "id": 1982500706960,
+            "title": "Mixer",
+            "pos_x": -38.0,
+            "pos_y": -118.0,
+            "inputs": [
+                {
+                    "id": 1982500707152,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                },
+                {
+                    "id": 1982500707248,
+                    "index": 1,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1982500707344,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "content": {},
+            "op_code": 11
+        },
+        {
+            "id": 1982500707440,
+            "title": "Ingredients",
+            "pos_x": -266.0,
+            "pos_y": -81.0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 1982500707632,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 3
+                }
+            ],
+            "content": {},
+            "op_code": 7
+        },
+        {
+            "id": 1982500707776,
+            "title": "Heater",
+            "pos_x": 168.99999999999994,
+            "pos_y": -120.74999999999996,
+            "inputs": [
+                {
+                    "id": 1982500707968,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1982500708064,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "content": {},
+            "op_code": 12
+        },
+        {
+            "id": 1982500708160,
+            "title": "Pasteurizer",
+            "pos_x": 383.74999999999994,
+            "pos_y": -119.49999999999996,
+            "inputs": [
+                {
+                    "id": 1982501122112,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 1982501122208,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "content": {},
+            "op_code": 8
+        },
+        {
+            "id": 1982501122304,
+            "title": "Packing",
+            "pos_x": 617.0000000000001,
+            "pos_y": -127.99999999999996,
+            "inputs": [
+                {
+                    "id": 1982501122496,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 4
+        }
+    ],
+    "edges": [
+        {
+            "id": 1982457875328,
+            "edge_type": 2,
+            "start": 1982457859952,
+            "end": 1982457875472
+        },
+        {
+            "id": 1982457875664,
+            "edge_type": 2,
+            "start": 1982457875568,
+            "end": 1982500706768
+        },
+        {
+            "id": 1982500706624,
+            "edge_type": 2,
+            "start": 1982500706864,
+            "end": 1982500707152
+        },
+        {
+            "id": 1982500707008,
+            "edge_type": 2,
+            "start": 1982500707632,
+            "end": 1982500707248
+        },
+        {
+            "id": 1982500707728,
+            "edge_type": 2,
+            "start": 1982500707344,
+            "end": 1982500707968
+        },
+        {
+            "id": 1982500707824,
+            "edge_type": 2,
+            "start": 1982500708064,
+            "end": 1982501122112
+        },
+        {
+            "id": 1982500708208,
+            "edge_type": 2,
+            "start": 1982501122208,
+            "end": 1982501122496
+        }
+    ]
+}

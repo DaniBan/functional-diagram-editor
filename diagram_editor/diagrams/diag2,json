@@ -1,0 +1,86 @@
+{
+    "id": 2051974059008,
+    "scene_width": 64000,
+    "scene_height": 64000,
+    "nodes": [
+        {
+            "id": 2051974208288,
+            "title": "Input",
+            "pos_x": -405.0,
+            "pos_y": -222.0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 2051974261344,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 3
+                }
+            ],
+            "content": {
+                "value": "1"
+            },
+            "op_code": 1
+        },
+        {
+            "id": 2051974208336,
+            "title": "Output",
+            "pos_x": -106.0,
+            "pos_y": -91.0,
+            "inputs": [
+                {
+                    "id": 2051974282016,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 2
+        },
+        {
+            "id": 2051985817168,
+            "title": "Add",
+            "pos_x": -126.0,
+            "pos_y": -255.0,
+            "inputs": [
+                {
+                    "id": 2051985838864,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 2
+                },
+                {
+                    "id": 2051985839008,
+                    "index": 1,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2051985839296,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 1
+                }
+            ],
+            "content": {},
+            "op_code": 3
+        }
+    ],
+    "edges": [
+        {
+            "id": 2051974282736,
+            "edge_type": 2,
+            "start": 2051974261344,
+            "end": 2051974282016
+        }
+    ]
+}

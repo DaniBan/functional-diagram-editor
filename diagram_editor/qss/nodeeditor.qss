@@ -1,0 +1,32 @@
+QDMNodeContentWidget { background: transparent; }
+
+QGraphicsView { background: "#D46A6A"; }
+
+QStatusbar { background-color: "#974613"; }
+QMainWindow { background: "#6D2A00"; }
+
+QListWidget { background: "#D68451"; }
+QMenuBar { background: "#532000"; }
+
+QWidget::title{
+    background: "#6D2A00";
+}
+
+QTabBar{
+    background: "#974613";
+}
+
+QMdiSubWindow::title{
+    background: "#550000";
+}
+
+QMdiArea{
+    background: "#6D2A00";
+}
+
+QMenu{
+    background: "#6D2A00";
+}
+
+
+

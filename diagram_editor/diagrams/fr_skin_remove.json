@@ -1,0 +1,111 @@
+{
+    "id": 2334564286912,
+    "scene_width": 32000,
+    "scene_height": 32000,
+    "nodes": [
+        {
+            "id": 2334564390272,
+            "title": "Fruits",
+            "pos_x": -440.0,
+            "pos_y": -226.0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 2334564390416,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 3
+                }
+            ],
+            "op_code": 2
+        },
+        {
+            "id": 2334564390368,
+            "title": "Washer",
+            "pos_x": -255.0,
+            "pos_y": -221.0,
+            "inputs": [
+                {
+                    "id": 2334564390752,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2334564390848,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "op_code": 5
+        },
+        {
+            "id": 2334564439136,
+            "title": "Skin/Seed Remove",
+            "pos_x": -42.0,
+            "pos_y": -219.0,
+            "inputs": [
+                {
+                    "id": 2334564439280,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2334564439376,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "op_code": 6
+        },
+        {
+            "id": 2334564439472,
+            "title": "Packing",
+            "pos_x": 197.0,
+            "pos_y": -229.0,
+            "inputs": [
+                {
+                    "id": 2334564439616,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [],
+            "op_code": 4
+        }
+    ],
+    "edges": [
+        {
+            "id": 2334564370800,
+            "edge_type": 2,
+            "start": 2334564390416,
+            "end": 2334564390752
+        },
+        {
+            "id": 2334564439088,
+            "edge_type": 2,
+            "start": 2334564439280,
+            "end": 2334564390848
+        },
+        {
+            "id": 2334564439184,
+            "edge_type": 2,
+            "start": 2334564439376,
+            "end": 2334564439616
+        }
+    ]
+}

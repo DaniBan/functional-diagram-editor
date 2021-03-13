@@ -1,0 +1,80 @@
+{
+    "id": 2717592104528,
+    "scene_width": 32000,
+    "scene_height": 32000,
+    "nodes": [
+        {
+            "id": 2717642217600,
+            "title": "Vegetables",
+            "pos_x": -421.0,
+            "pos_y": -203.0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 2717642270416,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 3
+                }
+            ],
+            "op_code": 1
+        },
+        {
+            "id": 2717642272720,
+            "title": "Packing",
+            "pos_x": 114.0,
+            "pos_y": -192.0,
+            "inputs": [
+                {
+                    "id": 2717642293408,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [],
+            "op_code": 4
+        },
+        {
+            "id": 2717642294368,
+            "title": "Evaporator",
+            "pos_x": -171.0,
+            "pos_y": -131.0,
+            "inputs": [
+                {
+                    "id": 2717642322416,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 2717642322512,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "op_code": 9
+        }
+    ],
+    "edges": [
+        {
+            "id": 2717642293552,
+            "edge_type": 2,
+            "start": 2717642270416,
+            "end": 2717642322416
+        },
+        {
+            "id": 2717642322128,
+            "edge_type": 2,
+            "start": 2717642322512,
+            "end": 2717642293408
+        }
+    ]
+}
